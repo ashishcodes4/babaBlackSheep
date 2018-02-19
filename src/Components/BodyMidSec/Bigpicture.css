@@ -1,0 +1,26 @@
+	
+
+
+
+
+
+
+
+
+	.splash-image:before {
+		display: block;
+		content:"";
+		width: 100%;
+		padding-top: 50%;
+
+	}
+	.splash-image {
+		position: relative;
+		background-image: url(http://www.cafedulce.co/content/themes/feelgood2016/img/illustrated_splash.jpg);
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		
+	}
+
+	

@@ -13,3 +13,14 @@ body {
 	content: " ";
 	display: table;
 }
+
+@media only screen and (max-width: 500px) {
+    .App {
+    	display: flex;
+    	flex-direction: column;
+    	flex: 1;
+	}
+	.navbar {
+		flex: none;
+	}
+}

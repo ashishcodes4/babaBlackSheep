@@ -38,14 +38,33 @@ class App extends Component {
       <div className="App">
         <Navigation onRouteChange={this.onRouteChange} />
         {
-        	this.state.route === 'home'
-        	? <div>
+        	this.state.route === 'home' ?
+        	<div>
         		<Bigpicture />
-        		<Pagenavigation onRouteChange={this.onRouteChange} />
+        		<Pagenavigation />
         	</div>
-        	: <div>
+        	: null
+        }
+        {
+        	this.state.route === 'menu' ?
+        	<div>
+        		<Menu />
+        	</div>
+        	: null
+        }
+        {
+        	this.state.route === 'gallery' ?
+        	<div>
         		<Gallery />
         	</div>
+        	: null
+        }
+        {
+        	this.state.route === 'About' ?
+        	<div>
+        		<About />
+        	</div>
+        	: null
         }
         <Footer />
       </div>

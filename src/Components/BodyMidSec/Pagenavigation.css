@@ -1,9 +1,6 @@
-
-
 * {
 	font-weight: 300;
 }
-
 
 a {
 	text-align: center;
@@ -69,4 +66,17 @@ a {
 	clear: both;
 	content: "";
 	display: table;
+}
+
+
+/* RESPONSIVE SYLESHEET */
+
+@media only screen and (max-width: 500px) {
+    .page-navigation {
+    	display: flex;
+    	flex-direction: row;
+    }
+    .text-banner {
+    	width: 100%;
+    }
 }

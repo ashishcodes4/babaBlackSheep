@@ -20,7 +20,7 @@ const Pagenavigation = ({ onRouteChange }) => {
 				<a href='#' onClick={()=>onRouteChange('about')}>story</a>
 			</div>
 			<div className='text-banner banner-gallery'>
-				<a href='#' onClick={()=>onRouteChange('galler')}>gallery</a>
+				<a href='#' onClick={()=>onRouteChange('gallery')}>gallery</a>
 			</div>
 		</div>
 		);

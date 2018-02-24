@@ -45,7 +45,7 @@ const Menu = () => {
 						</ul>
 					</div>
 				</div>
-				<div className='fullMenu'>
+				<div className='menu-section'>
 					<div className='menu-section-title'>
 							<img src='http://www.cafedulce.co/content/themes/feelgood2016/img/coffees.jpg' alt='cofee' />
 					</div>
@@ -64,7 +64,7 @@ const Menu = () => {
 						</ul>
 					</div>
 				</div>
-				<div className='fullMenu'>
+				<div className='menu-section'>
 					<div className='menu-section-title'>
 						<img src='http://www.cafedulce.co/content/themes/feelgood2016/img/coffees.jpg' alt='cofee' />
 					</div>
@@ -83,7 +83,7 @@ const Menu = () => {
 						</ul>
 					</div>
 				</div>
-				<div className='fullMenu'>
+				<div className='menu-section'>
 					<div className='menu-section-title'>
 						<img src='http://www.cafedulce.co/content/themes/feelgood2016/img/coffees.jpg' alt='cofee' />
 					</div>
@@ -102,7 +102,7 @@ const Menu = () => {
 						</ul>
 					</div>
 				</div>
-				<div className='fullMenu'>
+				<div className='menu-section'>
 					<div className='menu-section-title'>
 						<img src='http://www.cafedulce.co/content/themes/feelgood2016/img/coffees.jpg' alt='cofee' />
 					</div>
@@ -121,7 +121,7 @@ const Menu = () => {
 						</ul>
 					</div>
 				</div>
-				<div className='fullMenu'>
+				<div className='menu-section'>
 					<div className='menu-section-title'>
 						<img src='http://www.cafedulce.co/content/themes/feelgood2016/img/coffees.jpg' alt='cofee' />
 					</div>

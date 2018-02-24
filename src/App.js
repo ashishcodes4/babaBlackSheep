@@ -60,11 +60,25 @@ class App extends Component {
         	: null
         }
         {
-        	this.state.route === 'About' ?
+        	this.state.route === 'about' ?
         	<div>
         		<About />
         	</div>
         	: null
+        }
+        {
+            this.state.route === 'contact' ?
+            <div>
+                
+            </div>
+            : null 
+        }
+        {
+            this.state.route === 'updates' ?
+            <div>
+                
+            </div>
+            :null 
         }
         <Footer />
       </div>

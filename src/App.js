@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
@@ -60,7 +49,7 @@ class App extends Component {
         	: null
         }
         {
-        	this.state.route === 'About' ?
+        	this.state.route === 'about' ?
         	<div>
         		<About />
         	</div>

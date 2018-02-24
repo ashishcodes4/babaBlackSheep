@@ -53,6 +53,46 @@ p {
 	cursor: pointer;
 	margin-right: 1em;
 	text-decoration: none;
-	margin-top: 2em;
-	
+	margin-top: 2em;	
+}
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu-section-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.menu-section-title img {
+	flex-shrink: 0;
+	min-width: 100%;
+	height: auto;
+}
+.menu-section-body {
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 35em;
+}
+.menu-item-title {
+	display: flex;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 22px;
+}
+.menu-item {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/* responsive styles */
+
+@media (min-width: 900px) {
+	.menu>* {
+		flex: 0 0 50%;
+	}
 }

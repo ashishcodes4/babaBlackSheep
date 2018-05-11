@@ -1,13 +1,4 @@
-	
-
-
-
-
-
-
-
-
-	.splash-image:before {
+.splash-image:before {
 		display: block;
 		content:"";
 		width: 100%;

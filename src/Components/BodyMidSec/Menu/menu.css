@@ -1,5 +1,5 @@
 
- body {
+body {
  	background-color: #fff;
  }
 * {
@@ -8,9 +8,6 @@
 p {
 	margin: 0;
 }
-
-
-
 .order-now {
 	background-color: #f1c40f;
 	padding: 0.8em;

@@ -79,28 +79,4 @@ class App extends Component {
 }
 
 export default App;
-
-
-
-// if (this.state.route === 'home') {
-        	// 	<div>
-        	// 		<Bigpicture />
-        	// 		<Pagenavigation />
-        	// 	</div>
-        	// } 
-        	// else if (this.state.route === 'gallery') { 
-        	// 	<div>
-        	// 		<Gallery />
-        	// 	</div>
-        	// }
-        	// else if (this.state.route === 'about') {
-        	// 	<div>
-        	// 		<About />
-        	// 	</div>
-        	// }
-        	// else if (this.state.route === 'Menu') {
-        	// 	<div>
-        	// 		<Menu />
-        	// 	</div>
-        	// }
         	

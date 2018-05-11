@@ -14,13 +14,13 @@ const Pagenavigation = ({ onRouteChange }) => {
 	return (
 		<div className='page-navigation'>
 			<div className='text-banner banner-menu'>
-				<a href='#' onClick={()=>onRouteChange('menu')} >menu</a>
+				<p href='menu' onClick={()=>onRouteChange('menu')} >menu</p>
 			</div>
 			<div className='text-banner banner-about'>
-				<a href='#' onClick={()=>onRouteChange('about')}>story</a>
+				<p href='about' onClick={()=>onRouteChange('about')}>story</p>
 			</div>
 			<div className='text-banner banner-gallery'>
-				<a href='#' onClick={()=>onRouteChange('gallery')}>gallery</a>
+				<p href='gallery' onClick={()=>onRouteChange('gallery')}>gallery</p>
 			</div>
 		</div>
 		);

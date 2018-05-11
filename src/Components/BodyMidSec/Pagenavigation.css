@@ -41,7 +41,7 @@ a {
 	background-image: url(http://www.cafedulce.co/content/themes/feelgood2016/img/homepage-locationsbanner.jpg);
 }
 
-.text-banner a {
+.text-banner p {
 	text-decoration: none;
 	text-transform: uppercase;
 	position: absolute;
@@ -56,9 +56,10 @@ a {
 	z-index: 2;
 	background-color: rgba(0, 0, 0, 0.7);
 	color: #fff;
+	cursor: pointer;
 }
 
-.text-banner a:hover {
+.text-banner p:hover {
 	background-color: rgba(0,0,0,0.2);
 }
 

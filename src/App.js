@@ -30,7 +30,7 @@ class App extends Component {
         	this.state.route === 'home' ?
         	<div>
         		<Bigpicture />
-        		<Pagenavigation />
+        		<Pagenavigation onRouteChange={this.onRouteChange} />
         	</div>
         	: null
         }
@@ -38,6 +38,7 @@ class App extends Component {
         	this.state.route === 'menu' ?
         	<div>
         		<Menu />
+                <Pagenavigation onRouteChange={this.onRouteChange} />
         	</div>
         	: null
         }
@@ -45,6 +46,7 @@ class App extends Component {
         	this.state.route === 'gallery' ?
         	<div>
         		<Gallery />
+                <Pagenavigation onRouteChange={this.onRouteChange} />
         	</div>
         	: null
         }
@@ -52,8 +54,23 @@ class App extends Component {
         	this.state.route === 'about' ?
         	<div>
         		<About />
+                <Pagenavigation onRouteChange={this.onRouteChange} />
         	</div>
         	: null
+        }
+        {
+            this.state.route === 'contact' ?
+            <div>
+                <Pagenavigation onRouteChange={this.onRouteChange} />
+            </div>
+            : null 
+        }
+        {
+            this.state.route === 'updates' ?
+            <div>
+                <Pagenavigation onRouteChange={this.onRouteChange} />
+            </div>
+            :null 
         }
         <Footer />
       </div>

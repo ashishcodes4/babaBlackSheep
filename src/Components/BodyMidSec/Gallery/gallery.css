@@ -1,41 +1,38 @@
 .gallery-cover {
-	background-image: url( 'http://www.cafedulce.co/content/uploads/2015/12/gallery.jpg' );
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url('http://www.cafedulce.co/content/uploads/2015/12/gallery.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
-
 .gallery-cover:after {
-	content: " ";
-	display: block;
-	width: 100%;
-	padding-top: 50%;
+  content: ' ';
+  display: block;
+  width: 100%;
+  padding-top: 50%;
 }
 
 ul {
-	margin: 0;
-	display: block;
+  margin: 0;
+  display: block;
 }
 li {
-	list-style: none;
+  list-style: none;
 }
 
 .fa-gallery {
-	max-width: 100em;
-	padding: 3em 0;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+  max-width: 100em;
+  padding: 3em 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .fa-gallery-image {
-	display: inline-block;
-	padding: .5em;
-	list-style: none;
+  display: inline-block;
+  padding: 0.5em;
+  list-style: none;
 }
 .fa-gallery-image img {
-	width:100%;
-	max-width: 400px;
+  width: 100%;
+  max-width: 400px;
 }

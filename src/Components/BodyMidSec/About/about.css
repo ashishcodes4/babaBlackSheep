@@ -1,39 +1,38 @@
-
 body {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 1.7;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 .about-section-image {
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	background-image: url('http://www.cafedulce.co/content/uploads/2015/11/howareyou1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('http://www.cafedulce.co/content/uploads/2015/11/howareyou1.jpg');
 }
 .about-section-image:after {
-	display: block;
-	content: " ";
-	width: 100%;
-	padding-top: 50%;
+  display: block;
+  content: ' ';
+  width: 100%;
+  padding-top: 50%;
 }
-.about-section-image>* {
-	flex: 0 0 100%;
+.about-section-image > * {
+  flex: 0 0 100%;
 }
 .about-section-body {
-	padding: 2em 1em;
-	max-width: 60em;
-	margin-left: auto;
-	margin-right: auto;
+  padding: 2em 1em;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-section-body p {
-	line-height: 200%;
+  line-height: 200%;
 }
-.about-section-body>* {
-	flex: 0 0 100%;
+.about-section-body > * {
+  flex: 0 0 100%;
 }
 
 p:not(:last-child) {
-	margin-bottom: .7em;	
+  margin-bottom: 0.7em;
 }
